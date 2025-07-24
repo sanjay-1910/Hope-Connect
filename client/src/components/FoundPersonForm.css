@@ -1,0 +1,135 @@
+.form-container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 32px;
+  background-color: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.08);
+}
+
+.form-header h1 {
+  font-size: 28px;
+  margin-bottom: 8px;
+  color: #222;
+}
+
+.form-header p {
+  color: #666;
+  font-size: 14px;
+  margin-bottom: 24px;
+}
+
+.upload-box {
+  border: 2px dashed #ccc;
+  border-radius: 12px;
+  padding: 24px;
+  text-align: center;
+  cursor: pointer;
+  position: relative;
+  margin-bottom: 24px;
+}
+
+.upload-box.active {
+  border-color: #4f46e5;
+  background-color: #f0f4ff;
+}
+
+.upload-box img {
+  width: 128px;
+  height: 128px;
+  object-fit: cover;
+  border-radius: 8px;
+  display: block;
+  margin: 0 auto;
+}
+
+.upload-box .success-text {
+  color: #22c55e;
+  font-weight: bold;
+  margin-top: 12px;
+}
+
+.upload-box button {
+  color: #dc2626;
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin-top: 8px;
+}
+
+.upload-box input[type="file"] {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  font-weight: 500;
+  margin-bottom: 6px;
+  display: block;
+  color: #333;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+.form-group textarea {
+  resize: none;
+}
+
+.form-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 12px;
+  margin-top: 30px;
+  border-top: 1px solid #eee;
+  padding-top: 20px;
+}
+
+button.cancel-btn {
+  background-color: #f3f4f6;
+  color: #333;
+  padding: 10px 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button.submit-btn {
+  background-color: #16a34a;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+button.submit-btn:hover {
+  background-color: #15803d;
+}
+
+.info-banner {
+  background-color: #eff6ff;
+  border: 1px solid #bfdbfe;
+  padding: 16px;
+  border-radius: 8px;
+  margin-bottom: 24px;
+  color: #1e3a8a;
+}
+
+.info-banner p {
+  margin: 6px 0 0;
+  font-size: 14px;
+}

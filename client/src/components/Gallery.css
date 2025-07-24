@@ -1,0 +1,151 @@
+/* General Container */
+.gallery-container {
+  max-width: 100%;
+  padding: 20px 40px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to bottom right, #e0f7fa, #f1f8e9);
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+/* Heading */
+.gallery-container h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #1a237e;
+  margin-bottom: 20px;
+}
+
+/* Search Box */
+.search-box {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto 30px auto;
+  padding: 12px 18px;
+  font-size: 1rem;
+  border: 2px solid #80deea;
+  border-radius: 10px;
+  outline: none;
+  transition: all 0.3s ease;
+  display: block;
+}
+
+.search-box:focus {
+  border-color: #00acc1;
+  box-shadow: 0 0 8px rgba(0, 172, 193, 0.4);
+}
+
+/* Tabs */
+.tabs {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+}
+
+.tabs button {
+  padding: 10px 24px;
+  border: none;
+  background-color: #cfd8dc;
+  border-radius: 8px;
+  font-size: 1rem;
+  color: #263238;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.tabs button.active {
+  background-color: #00796b;
+  color: #fff;
+}
+
+.tabs button:hover {
+  background-color: #b0bec5;
+}
+
+/* Cards Grid */
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 24px;
+  padding: 0 10px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Card */
+.card {
+  background-color: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.12);
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.18);
+}
+
+.card img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-bottom: 1px solid #eee;
+}
+
+/* Card Info */
+.card-info {
+  padding: 16px 20px;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-info h3 {
+  margin: 0;
+  font-size: 1.3rem;
+  color: #37474f;
+  margin-bottom: 6px;
+}
+
+.card-info p {
+  margin: 4px 0;
+  font-size: 0.95rem;
+  color: #546e7a;
+}
+
+/* Status Tags */
+.status {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 6px 12px;
+  border-radius: 50px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  align-self: flex-start;
+}
+
+.status.missing {
+  background-color: #ffebee;
+  color: #c62828;
+  border: 1px solid #ef9a9a;
+}
+
+.status.found {
+  background-color: #e8f5e9;
+  color: #2e7d32;
+  border: 1px solid #a5d6a7;
+}
+
+/* No Results Message */
+.no-results {
+  text-align: center;
+  font-size: 1.1rem;
+  color: #757575;
+  margin-top: 50px;
+}

@@ -1,0 +1,27 @@
+{
+  "missingPersons": [
+    {
+      "id": 1,
+      "name": "Ravi Kumar",
+      "age": 14,
+      "photo": "/images/ravi.jpg",
+      "lastSeenLocation": "Hyderabad",
+      "dateLastSeen": "2024-06-01",
+      "description": "Wearing blue jeans and a red shirt. Was last seen near the railway station.",
+      "submittedBy": "Anil Kumar",
+      "contactInfo": "anil@example.com"
+    }
+  ],
+  "foundPersons": [
+    {
+      "id": 2,
+      "approximateAge": 12,
+      "photo": "/images/found1.jpg",
+      "locationFound": "Secunderabad",
+      "dateFound": "2024-06-02",
+      "description": "Found wandering in the market, confused and not speaking much.",
+      "submittedBy": "Police Station A",
+      "contactInfo": "police@example.com"
+    }
+  ]
+}
