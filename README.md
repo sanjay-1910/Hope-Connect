@@ -1,7 +1,7 @@
-Hope Connect
+**Hope Connect**
 Hope Connect is an AI-powered facial recognition platform built to assist in identifying and reuniting missing persons with their families. The application allows users to report missing or found individuals by uploading images, which are then analyzed using facial similarity detection via AWS Rekognition. It is supported by secure cloud-based image storage, a notification system, and a user-friendly interface, aiming to create a socially impactful solution for humanitarian needs.
 
-🔧 Tech Stack
+🔧 **Tech Stack**
 Frontend: HTML, CSS, JavaScript
 
 Backend: Node.js (Express)
@@ -18,7 +18,7 @@ Deployment: Render / Vercel (optional)
 
 Version Control: Git & GitHub
 
-🚀 Key Features
+🚀 **Key Features**
 🧑‍💻 User Registration and Login
 
 📤 Report a Missing Person with name, image, and details
@@ -35,7 +35,7 @@ Version Control: Git & GitHub
 
 🛡️ Data Privacy using secure AWS S3 storage
 
-🔁 Workflow
+🔁** Workflow**
 User Registration & Login
 
 Users sign up and log in securely to report or search cases.
@@ -96,7 +96,9 @@ Each card includes a photo, name, and status.
 
 Helps users visually browse and assist in identifications.
 
-👨‍💻 My Role
+
+
+👨‍💻 **My Role**
 Contributed to AWS Rekognition integration for face analysis
 
 Helped build the frontend for report forms and gallery UI
@@ -107,7 +109,9 @@ Assisted in setting up email alerts using Nodemailer
 
 Collaborated with teammates to ensure secure and functional workflow
 
-📚 What I Learned
+
+
+📚 **What I Learned**
 Practical experience with AI-based image recognition
 
 Using AWS services for real-world problem solving
