@@ -2,6 +2,8 @@
 Hope Connect is an AI-powered facial recognition platform built to assist in identifying and reuniting missing persons with their families. The application allows users to report missing or found individuals by uploading images, which are then analyzed using facial similarity detection via AWS Rekognition. It is supported by secure cloud-based image storage, a notification system, and a user-friendly interface, aiming to create a socially impactful solution for humanitarian needs.
 
 🔧 **Tech Stack**
+
+
 Frontend: HTML, CSS, JavaScript
 
 Backend: Node.js (Express)
